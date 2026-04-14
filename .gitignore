@@ -1,0 +1,33 @@
+# Environment
+.env
+.env.*
+
+# TLS Certificates (private)
+certs/
+*.crt
+*.key
+*.pem
+
+# Traefik ACME (letsencrypt stored certs)
+traefik-letsencrypt/
+
+# Docker volumes
+*.vol
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
