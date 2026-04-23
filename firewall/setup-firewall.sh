@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Ensure privileged binaries are in PATH (common in WSL non‑login shells)
+export PATH="/usr/sbin:/sbin:$PATH"
+
 set -e
 
 echo "Setting up firewall rules..."
